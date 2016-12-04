@@ -1,0 +1,34 @@
+{
+  "name": "libminhash",
+  "version": "0.0.1",
+  "description": "MinHash and Shingles",
+  "main": "./lib/libminhash.js",
+  "bin": { "hrc": "./bin/interactive.js" },
+  "dependencies": {
+    "crc": "^3.4.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nhatbui/libminhash.git"
+  },
+  "keywords": [
+    "shingle",
+    "mmds",
+    "Jaccard Similarity",
+    "shingling",
+    "Javascript"
+  ],
+  "author": "Nhat Bui <nhat@nhatqbui.com> (http://nhatqbui.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nhatbui/libminhash/issues"
+  },
+  "homepage": "https://github.com/nhatbui/libminhash",
+  "directories": {
+    "bin": "bin",
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": { "test": "node ./test/simpleStringTest.js" }
+}

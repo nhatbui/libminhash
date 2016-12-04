@@ -1,0 +1,2 @@
+# libminhash
+MinHash and Shingles
