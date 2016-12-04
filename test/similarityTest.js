@@ -1,4 +1,4 @@
-var MinHash = require("../lib/minhash.js");
+var MinHash = require("../lib/libminhash.js");
 
 var compareDocs = function(doc1, doc2) {
   // Compute MinHash
