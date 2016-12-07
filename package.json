@@ -1,6 +1,6 @@
 {
   "name": "libminhash",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "MinHash and Shingles",
   "main": "./lib/libminhash.js",
   "bin": { "hrc": "./bin/interactive.js" },
